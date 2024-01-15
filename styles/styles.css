@@ -1,0 +1,70 @@
+ .primary-font {
+
+     font-family: Mulish;
+ }
+
+ .orange-primary {
+     color: #FF5400;
+
+ }
+
+ nav {
+     padding-top: 52px;
+     padding-left: 135px;
+     padding-right: 135px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .nav-head {
+     color: #131318;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+
+ .dream {
+     color: #FF5400;
+
+ }
+
+ .nav-title {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .logo {
+     width: 48px;
+     height: 56.008px;
+
+ }
+
+ .nav-items {
+     display: flex;
+     list-style: none;
+     color: var(--Dark-02, #424247);
+     align-items: center;
+
+ }
+
+ nav li {
+     margin-right: 44px;
+
+ }
+
+ nav li a {
+     text-decoration: none;
+     text-align: center;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     color: #424247;
+ }
+ 
+
+ 
