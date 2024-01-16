@@ -8,7 +8,8 @@
 
  }
 
- nav {
+ nav {max-width: 100%;margin: 0 auto;
+    width: 1170px;
      padding-top: 52px;
      padding-left: 135px;
      padding-right: 135px;
@@ -102,7 +103,56 @@
      font-size: 16px;
      font-style: normal;
      font-weight: 400;
-     line-height: 26px;padding-left: 247;padding-right: 247;padding-top: 24;padding-bottom: 40px;
+     line-height: 26px;
+     padding-left: 247;
+     padding-right: 247;
+     padding-top: 24;
+     padding-bottom: 40px;
  }
 
- .banner form { }
+ .banner-input {
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     display: inline-flex;
+     padding: 16px;
+     align-items: flex-start;
+     gap: 24px;
+ }
+
+ .banner-input input {
+     border-style: none;
+     border-radius: 8px;
+     background: #FFF;
+     width: 174px;
+     height: 35px;
+
+ }
+
+ .banner-input select {
+     width: 174px;
+     height: 35px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     background: #FFF;
+     color: rgba(19, 19, 24, 0.50);
+
+ }
+
+ .banner-input button {
+     width: 174px;
+     height: 35px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     background: #FF5400;
+     color: #FFF;
+     text-align: center;
+     font-weight: 700;
+     line-height: normal;
+     border-style: none;
+
+
+ }
