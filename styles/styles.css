@@ -209,7 +209,7 @@
 
  .img-contaner {
      max-width: 1170px;
-     height: 700px;
+
      margin: 0 auto;
      padding-bottom: 24px;
      align-items: center;
@@ -335,4 +335,65 @@
      right: 20%;
      transform: translate(-50%, -50%);
 
+ }
+
+ .offer-contaner h2 {
+     text-align: center;
+ }
+
+ .offer-contaner p {
+     text-align: center;
+ }
+
+ .hotels {
+     width: 573px;
+     height: 284px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20);
+     background: rgba(251, 181, 99, 0.05);
+     padding-top: 30px;
+     padding-bottom: 10px;
+     padding-left: 30px;
+     padding-right: 50px;
+
+
+ }
+
+ .map {
+     width: 573px;
+     height: 284px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05);
+     ;
+     padding-top: 30px;
+     padding-bottom: 10px;
+     padding-left: 30px;
+     padding-right: 50px;
+
+ }
+
+ .price {
+     width: 573px;
+     height: 284px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(233, 68, 68, 0.20);
+     background: rgba(233, 68, 68, 0.05);
+     padding-top: 30px;
+     padding-bottom: 10px;
+     padding-left: 30px;
+     padding-right: 50px;
+
+ }
+
+ .offer-content {
+     max-width: 1440px;
+     margin: 0 135px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 20px;
+     row-gap: 24px;
  }
