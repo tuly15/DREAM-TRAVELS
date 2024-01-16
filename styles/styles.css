@@ -8,8 +8,10 @@
 
  }
 
- nav {max-width: 100%;margin: 0 auto;
-    width: 1170px;
+ nav {
+     max-width: 100%;
+     margin: 0 auto;
+     width: 1170px;
      padding-top: 52px;
      padding-left: 135px;
      padding-right: 135px;
@@ -156,39 +158,81 @@
 
  }
 
- .header-primary{color: #131318;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+ .header-primary {
+     color: #131318;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
  }
 
- .p-primary{color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-
- }
-
-
- .tour-contaner{display: flex;margin: 100px auto; width: 1170px;
-    
-
- }
- .tour-content{width: 1440px;
-    height: 6940px;padding: 24px;
-
- }
- .tour-content button{margin-top: 10px;font-weight: 800px;
+ .p-primary {
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
 
  }
 
- 
 
- 
-.tour-img{width: 540px;
-    height: 550px;
-    flex-shrink: 0;
+ .tour-contaner {
+     display: flex;
+     margin: 100px auto;
+     width: 1170px;
 
-}
+
+ }
+
+ .tour-content {
+     width: 1440px;
+     padding: 24px;
+
+ }
+
+ .tour-content button {
+     margin-top: 10px;
+     font-weight: 800px;
+
+ }
+
+ .tour-img {
+     width: 540px;
+     height: 550px;
+     flex-shrink: 0;
+
+ }
+
+ .destination-contaner {
+     text-align: center;
+ }
+
+ .img-contaner {
+     max-width: 1170px;
+     margin: 0 auto;
+     padding-bottom: 24px;
+     align-items: center;
+
+
+
+ }
+
+ .column1 {
+     width: 100%;
+     display: flex;
+     gap: 24px;
+     padding-bottom: 24px;
+ }
+
+ .column2 {
+     display: flex;
+     width: 100%;
+     gap: 24px;
+     padding-bottom: 24px;
+ }
+
+ .column3 {
+     display: flex;
+     width: 100%;
+     gap: 24px;
+ }
