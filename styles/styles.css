@@ -385,7 +385,7 @@
      padding-top: 30px;
      padding-bottom: 10px;
      padding-left: 30px;
-     padding-right: 50px;
+     padding-right: 50px;transform: translate(50%);
 
  }
 
@@ -397,3 +397,4 @@
      column-gap: 20px;
      row-gap: 24px;
  }
+ 
