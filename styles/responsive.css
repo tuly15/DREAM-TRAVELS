@@ -1,0 +1,266 @@
+ @media screen and (max-width: 600px) {
+     .nav-container {
+         flex-direction: column;
+          max-width: 100%;width: 335px;
+     }.nav-head  {
+       
+        font-size: 21px;
+        
+    }
+    .logo {
+        width: 28px;
+            height: 33.008px;}
+   
+
+
+
+     .nav-items {
+         flex-direction:none;visibility: hidden;
+     }
+
+     
+    
+     .banner {
+         background-position: center;
+         max-width: 100%;
+         width: 335px;
+         height: 483px;
+
+     }
+
+     .banner h1 {
+         padding-left: 30px;
+         padding-right: 30px;
+         padding-top: 10px;
+         font-size: 22px;
+         font-weight: 800;
+         line-height: normal;
+         padding-top: 30px;
+         padding-bottom: 10px;
+
+     }
+
+     .banner p {
+         text-align: center;
+         color: #FFF;
+         font-size: 14px;
+         line-height: 21px;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+
+     .banner-input {
+         flex-direction: column;
+     }
+
+     .tour-contaner {
+         flex-direction: column;
+         width: 335px;
+     }
+
+     .tour-content {
+         max-width: 100%;
+
+     }
+
+     .header-primary {
+
+         font-size: 20px;
+     }
+
+     .p-primary {
+         font-size: 14px;
+         line-height: 24px;
+     }
+
+     .tour-img {
+        max-width: 100%; 
+         width: 330px;
+         height: 342px;overflow: hidden;
+        
+
+     }
+
+     .destination-contaner {text-align:center;
+         width: 100%;
+         
+     }
+
+     .destination-contaner p {text-align:center;
+        width: 100%;
+         
+     }
+
+     .img-contaner {
+         width: 375px;
+
+
+     }
+
+     .column1 {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .column1 .rec-5,
+     .rec-8 {
+         width: 335px;
+         height: 175.393px;
+         flex-shrink: 0;
+     }
+
+     .column2 {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .column2 .rec-6,
+     .rec-7,
+     .rec-9 {
+         width: 335px;
+         height: 175.393px;
+         flex-shrink: 0;
+     }
+
+     .column3 {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .column3 .rec-10,
+     .rec-11 {
+         width: 335px;
+         height: 175.393px;
+         flex-shrink: 0;
+     }
+
+     .img-text1 {
+
+
+         font-size: 20px;
+         text-align: center;
+         font-weight: 700;
+         top: 20%;
+         left: 40%;
+         transform: translate(-50%, -50%);
+
+     }
+
+     .img-text2 {
+
+         font-size: 20px;
+         font-weight: 700;
+         top: 70%;
+         left: 40%;
+         transform: translate(-50%, -50%);
+     }
+
+     .img-text3 {
+
+
+         font-size: 20px;
+         font-weight: 700;
+         top: 10%;
+         left: 40%;
+         transform: translate(-50%, -50%);
+
+
+     }
+
+     .img-text4 {
+
+
+         font-size: 20px;
+         font-weight: 700;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+
+
+     }
+
+     .img-text5 {
+
+         font-size: 20px;
+         font-weight: 700;
+         top: 80%;
+         right: 40%;
+         transform: translate(-50%, -50%);
+
+
+     }
+
+     .img-text6 {
+
+         font-size: 20px;
+         font-weight: 700;
+         top: 80%;
+         left: 40%;
+         transform: translate(-50%, -50%);
+
+     }
+
+     .img-text7 {
+
+         font-size: 20px;
+         font-weight: 700;
+         top: 20%;
+         right: 30%;
+         transform: translate(-50%, -50%);
+
+     }
+
+     .offer-contaner h2 {text-align: center;
+         width: 100%;
+     }
+
+     .offer-contaner p {text-align: center;
+        width: 100%;
+
+         
+     }
+
+     .offer-contaner p {
+         padding-bottom: 20px;
+         text-align: center;
+     }
+
+     .offer-content {
+        align-items: center;
+         flex-shrink: 0;
+         
+         margin: 0 auto;
+         display: grid;
+         grid-template-columns:none;
+         column-gap: 10px;
+         
+     }
+     .hotels {align-items: center;
+        width: 335px;
+    
+        height: 289px;
+   
+    }
+   
+    .map {
+        width: 335px;
+        height: 289px;
+        
+   
+    }
+   
+    .price {
+        width: 335px;
+        height: 289px;transform: none;
+        
+        
+   
+    }
+}
+
+
+
+
+
+
+ 
