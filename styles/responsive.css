@@ -1,25 +1,31 @@
  @media screen and (max-width: 600px) {
      .nav-container {
          flex-direction: column;
-          max-width: 100%;width: 335px;
-     }.nav-head  {
-       
-        font-size: 21px;
-        
-    }
-    .logo {
-        width: 28px;
-            height: 33.008px;}
-   
+         max-width: 100%;
+         width: 335px;
+     }
+
+     .nav-head {
+
+         font-size: 21px;
+
+     }
+
+     .logo {
+         width: 28px;
+         height: 33.008px;
+     }
+
 
 
 
      .nav-items {
-         flex-direction:none;visibility: hidden;
+         flex-direction: none;
+         visibility: hidden;
      }
 
-     
-    
+
+
      .banner {
          background-position: center;
          max-width: 100%;
@@ -74,21 +80,24 @@
      }
 
      .tour-img {
-        max-width: 100%; 
+         max-width: 100%;
          width: 330px;
-         height: 342px;overflow: hidden;
-        
+         height: 342px;
+         overflow: hidden;
+
 
      }
 
-     .destination-contaner {text-align:center;
+     .destination-contaner {
+         text-align: center;
          width: 100%;
-         
+
      }
 
-     .destination-contaner p {text-align:center;
-        width: 100%;
-         
+     .destination-contaner p {
+         text-align: center;
+         width: 100%;
+
      }
 
      .img-contaner {
@@ -210,14 +219,16 @@
 
      }
 
-     .offer-contaner h2 {text-align: center;
+     .offer-contaner h2 {
+         text-align: center;
          width: 100%;
      }
 
-     .offer-contaner p {text-align: center;
-        width: 100%;
+     .offer-contaner p {
+         text-align: center;
+         width: 100%;
 
-         
+
      }
 
      .offer-contaner p {
@@ -226,41 +237,87 @@
      }
 
      .offer-content {
-        align-items: center;
+         align-items: center;
          flex-shrink: 0;
-         
+
          margin: 0 auto;
          display: grid;
-         grid-template-columns:none;
+         grid-template-columns: none;
          column-gap: 10px;
-         
+
      }
-     .hotels {align-items: center;
-        width: 335px;
-    
-        height: 289px;
-   
-    }
-   
-    .map {
-        width: 335px;
-        height: 289px;
+
+     .hotels {
+         align-items: center;
+         width: 335px;
+
+         height: 289px;
+
+     }
+
+     .map {
+         width: 335px;
+         height: 289px;
+
+
+     }
+
+     .price {
+         width: 335px;
+         height: 289px;
+         transform: none;
+
+
+
+     }
+
+     .news-contner {
+         flex-direction: column;
+         margin-left: auto;
+         margin-right: auto;
+
+
+     }
+
+     .newsletter {
+         width: 335px;max-width: 100%;
+         height: 353px;
+         flex-shrink: 0;
+         padding-top: 50px;
+         text-align: center;
+         margin-top: 24px;
+         margin-left: auto;
+         margin-right: auto;
+         flex-shrink: 0;
+     }
+     .newsletter ul>li {
+        list-style: none;
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        align-items: center;}
+
+        .newsletter ul>li input {
+            padding: 16px 70px 15px 100px;
+        }
+       
+     .news-img {
+
+         max-width: 100%;
+         width: 335px;
+         height: 300px;
+         flex-shrink: 0;
+         margin-top: 20px; overflow: hidden;
+
+     } 
+     .discount {
         
-   
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        position: absolute;
+        left: 65%;
+        bottom: 10%;
+        right: 10%;
     }
-   
-    .price {
-        width: 335px;
-        height: 289px;transform: none;
-        
-        
-   
-    }
-}
-
-
-
-
-
-
- 
+ }
