@@ -209,7 +209,7 @@
  }
 
  .tour-img {
-     max-width: 100%;
+     max-width: 100%;height: auto;
      flex-shrink: 0;
 
  }
@@ -479,8 +479,8 @@
 
  .news-img {
 
-     width: 100%;
-     max-width: 672px;
+     max-width: 100%;
+     width: 672px;
      height: 422px;
      flex-shrink: 0;
      margin-top: 100px;
